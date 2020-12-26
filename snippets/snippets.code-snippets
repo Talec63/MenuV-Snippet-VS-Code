@@ -1,0 +1,76 @@
+                                                    // Made by Talec
+
+{
+    "MenuV:CreateMenu": {
+        "prefix": "MenuV:CreateMenu",
+        "body": ["MenuV:CreateMenu(${1:MenuV}, ${2:title}, ${3:subtitle}, ${4:position}, ${5:red}, ${6:green}, ${7:blue}, ${8:size}, ${9:texture})"
+        ]
+    },
+
+    "MenuV:CloseMenu": {
+        "prefix": "MenuV:CloseMenu",
+        "body": ["MenuV:CloseMenu(${1:MenuV}, ${2:menu}, ${3:callback})"
+        ]
+    },
+
+    "MenuV:GetMenu": {
+        "prefix": "MenuV:GetMenu",
+        "body": ["MenuV:GetMenu(${1:MenuV}, ${2:uuid})"
+        ]
+    },
+
+    "menu:OpenWith": {
+        "prefix": "menu:OpenWith",
+        "body": ["menu:OpenWith(${1:menu}, ${2:defaultType}, ${3:defaultKey})"
+        ]
+    },
+    
+    "menu:AddButton": {
+        "prefix": "menu:AddButton",
+        "body": ["menu:AddButton(${1:menu}, ${2:icon}, ${3:label}, ${4:description}, ${5:value}, ${6:disabled})"
+        ]
+    },
+
+    "menu:AddConfirm": {
+        "prefix": "menu:AddConfirm",
+        "body": ["menu:AddConfirm(${1:menu}, ${2:icon}, ${3:label}, ${4:description}, ${5:value}, ${6:disabled})"
+        ]
+    },
+
+    "menu:AddRange": {
+        "prefix": "menu:AddRange",
+        "body": ["menu:AddRange(${1:menu}, ${2:icon}, ${3:label}, ${4:description}, ${5:value}, ${6:min},${7:max},${8:disabled})"
+        ]
+    },
+
+    "MenuV:InheritMenu": {
+        "prefix": "MenuV:InheritMenu",
+        "body": ["MenuV:InheritMenu(${1:MenuV}, ${2:menu}, ${3:overrides}, ${4:namespace})"
+        ]
+    },
+
+    "MenuV:IsNamespaceAvailable": {
+        "prefix": "MenuV:IsNamespaceAvailable",
+        "body": ["MenuV:IsNamespaceAvailable(${1:namespace})"
+        ]
+    },
+
+    "MenuV:OpenMenu": {
+        "prefix": "MenuV:OpenMenu",
+        "body": ["MenuV:OpenMenu(${1:menu})"
+        ]
+    },
+
+    "menu:AddCheckbox": {
+        "prefix": "menu:AddCheckbox",
+        "body": ["menu:AddCheckbox(${1:menu}, ${2:icon}, ${3:label}, ${4:description}, ${5:value}, ${6:disabled})"
+        ]
+    },
+    
+    "menu:AddSlider": {
+        "prefix": "menu:AddSlider",
+        "body": ["menu:AddSlider(${1:menu}, ${2:icon}, ${3:label}, ${4:description}, ${5:value}, ${6:values}, ${6:label}, ${7:description}, ${8:value},${9:disabled})"
+        ]
+    },
+    
+}

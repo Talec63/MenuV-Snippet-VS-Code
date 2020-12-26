@@ -1,0 +1,20 @@
+{
+    "name": "menuv-snippets",
+    "displayName": "MenuV Snippets",
+    "description": "A Snippet for menuV in FiveM",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "lua",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
